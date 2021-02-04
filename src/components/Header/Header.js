@@ -25,7 +25,7 @@ const Header = ({category , setCategory , word , setWord , lightMode}) => {
                 <ThemeProvider theme={darkTheme}>
                 <TextField 
                 className="search" 
-                label="Search a word"
+                label="Search"
                 value={word}
                 onChange={(e) => setWord(e.target.value)}
                  />
