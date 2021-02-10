@@ -37,7 +37,7 @@ function App() {
       let apiLink = `https://api.dictionaryapi.dev/api/v2/entries/${category}/${word}`
       const data = await axios.get(apiLink)
       setmeanings(data.data)
-      
+      // console.log(data)
     }
     catch(error){
       console.log(error)
