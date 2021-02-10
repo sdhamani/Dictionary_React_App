@@ -15,6 +15,7 @@
 
 @media (max-width:900px){
     .header{
+        justify-content: space-evenly;
         height: 25vh;
     }
     .title{
@@ -23,11 +24,15 @@
 }
 
 .inputs{
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
-.search , .select{
+.search{
     width: 43%;
 }
+
+.select {
+    width: 43%;
+  }
